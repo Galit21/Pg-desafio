@@ -1,26 +1,8 @@
-body{
-    margin: 0;
-}
-h2{
-
+html {
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
 }
 img{
-    border-image: none;
-    top: 0;
-    left: 0;
     object-fit: cover;
-}
-.flexbox{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.flexbox > div{
-    display: flex;
-    
-
-    gap: 10px;
-}
-.separacion{
-    padding-left: 120px;
 }
