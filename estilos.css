@@ -1,8 +1,65 @@
-html {
-    font-family: sans-serif; /* 1 */
-    -ms-text-size-adjust: 100%; /* 2 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-}
 img{
     object-fit: cover;
+}
+nav{
+    padding: 10px;
+}
+nav > h2{
+    float: right;
+    border: solid 1px black;
+    padding: 5px;
+    font-size: 15px;
+}
+.borde_negro{
+    border: solid 1px black;
+    margin: 60px;
+}
+.flexbox_ofertas{
+    display: flex;
+    border: solid 1px black;
+    margin: 60px;
+    justify-content: center;
+    padding-top: 40px;
+    background-image: url("assets/fondo.jpeg");
+    background-size: cover;
+    opacity: 0.85;
+}
+.flexbox_ofertas > h2{
+    font-size: 20px;
+    display: flex;
+    border: solid 1px black;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.flexbox_tabla{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+.flexbox_tabla > div{
+    display: flex;
+    object-fit: cover;
+    border: solid 1px black;
+    padding: 5px;
+}
+.flexbox_carta{
+    display: flex;
+    flex-direction: column;  
+}
+.flexbox_carta > h2{
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+}
+.flexbox_carta > h3{
+    display: flex;
+    font-size: 9px;
+    justify-content: center;
+}
+.flexbox_carta > h4{
+    display: flex;
+    font-size: 8px;
+    justify-content: center;
 }
