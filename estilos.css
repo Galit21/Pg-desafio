@@ -35,8 +35,8 @@ nav > h2{
 .flexbox_tabla{
     display: flex;
     justify-content: center;
-    gap: 10px;
-    padding: 10px;
+    gap: 5px;
+    padding: 5px;
 }
 .flexbox_tabla > div{
     display: flex;
