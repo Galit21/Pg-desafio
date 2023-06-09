@@ -1,37 +1,70 @@
 img{
     object-fit: cover;
 }
-nav{
-    padding: 10px;
+.img_encabezado{
+    width: 100%;
+    height: 70px;
 }
-nav > h2{
-    float: right;
+.flex_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.img_logo{
+    margin-left: 5px;
+    width: 60px; 
+    height: 60px;
+}
+.menu{
+    display: flex;
+    margin-right: 10px;
+    font-size: 10px;
+}
+.borde_negro_pd{
     border: solid 1px black;
     padding: 5px;
-    font-size: 15px;
-}
-.borde_negro{
-    border: solid 1px black;
-    margin: 60px;
 }
 .flexbox_ofertas{
     display: flex;
     border: solid 1px black;
-    margin: 60px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 30px;
     justify-content: center;
     padding-top: 40px;
     background-image: url("assets/fondo.jpeg");
     background-size: cover;
     opacity: 0.85;
 }
-.flexbox_ofertas > h2{
+.ofertas_h2{
     font-size: 20px;
-    display: flex;
     border: solid 1px black;
     padding: 5px;
     background-color: black;
     color: white;
 }
+.flexbox_tabla{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: solid 1px black;  
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.img_carta{
+    object-fit: cover;
+    width: 80px;
+    height: 40px;
+
+}
+.carta_h2{
+    font-size: 10px;
+}
+/*
 .flexbox_tabla{
     display: flex;
     justify-content: center;
@@ -62,4 +95,4 @@ nav > h2{
     display: flex;
     font-size: 8px;
     justify-content: center;
-}
+}*/
